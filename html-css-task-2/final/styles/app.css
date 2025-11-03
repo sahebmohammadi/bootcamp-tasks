@@ -1,5 +1,4 @@
 @import url("./fonts.css");
-@import url("./responsive.css");
 
 *,
 *::after,
@@ -20,6 +19,7 @@ body,
 button,
 input,
 textarea {
+  font-feature-settings: "ss01";
   font-family: "Vazir";
 }
 
